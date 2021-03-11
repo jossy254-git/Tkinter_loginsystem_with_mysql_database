@@ -4,10 +4,10 @@ import os
 import time
 from tkinter import *
 
-connection = pymysql.connect(host="Jossy", 
-user="root", 
-password="rootsman",
-db="mysql1")
+connection = pymysql.connect(host="local", 
+user="user", 
+password="password",
+db="database")
 
 mycur = connection.cursor()
 
